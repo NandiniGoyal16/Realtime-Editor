@@ -7,7 +7,7 @@
 }
 
 .formWrapper {
-  background: #282a36;
+  background: #372426;
   padding: 20px;
   border-radius: 10px;
   width: 400px;
@@ -20,7 +20,7 @@ footer {
 }
 
 footer a {
-  color: #4aee88;
+  color: #EEC894;
 }
 
 .inputGroup {
@@ -61,7 +61,7 @@ footer a {
 
 .joinBtn,
 .leaveBtn {
-  background: #4aed88;
+  background: #EEC894;
   width: 100px;
   margin-left: auto;
 }
@@ -77,9 +77,9 @@ footer a {
 }
 
 .createNewBtn {
-  color: #4aed88;
+  color: #EEC894;
   text-decoration: none;
-  border-bottom: 1px solid #4aed88;
+  border-bottom: 1px solid #EEC894;
   transition: all 0.3s ease-in-out;
 }
 
@@ -95,7 +95,7 @@ footer a:hover {
 }
 
 .aside {
-  background: #1c1e29;
+  background: #92490f;
   padding: 16px;
   color: #fff;
   display: flex;
@@ -103,6 +103,7 @@ footer a:hover {
 }
 .asideInner {
   flex: 1;
+  background-color: #92490f;
 }
 
 .clientsList {
@@ -135,6 +136,7 @@ footer a:hover {
   width: 100%;
   margin-top: 20px;
 }
+
 .CodeMirror {
   min-height: calc(100vh - 20px);
   font-size: 20px;

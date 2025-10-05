@@ -1,0 +1,24 @@
+/* Override Dracula theme background */
+.cm-s-dracula.CodeMirror, 
+.cm-s-dracula .CodeMirror-gutters {
+  background-color: #241c1d !important;  /* ← change this to your desired color */
+  color: #e6edf3 !important;             /* ← text color */
+  border: none !important;
+}
+
+/* Optional: change line numbers background */
+.cm-s-dracula .CodeMirror-gutters {
+  background-color: #241c1d !important;
+}
+
+/* Optional: change cursor and selection color */
+.CodeMirror-cursor {
+  border-left: 2px solid #58a6ff !important;
+}
+.CodeMirror-selected {
+  background-color: rgba(88, 166, 255, 0.2) !important;
+}
+
+.cm-s-dracula span.cm-variable {
+    color: #EEC894;
+    }
