@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+# 💻 Realtime Code Editor
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A **realtime collaborative code editor** built with **React**, **Node.js**, and **Socket.io**. Users can join rooms, edit code together, and see each other's changes live.  
 
-## Available Scripts
+![Realtime Editor](public/CodingRoomHomePage.png)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🛠 Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🌐 **Realtime collaboration** using WebSockets
+- ✨ **Room-based editing** — join any room with a unique Room ID
+- 💾 **Code sync** — latest code is sent to newly joined clients
+- 🧑‍🤝‍🧑 **Connected users list** with usernames
+- 📋 **Copy Room ID** functionality
+- 🖥 **Frontend in React** with live code editor (CodeMirror)
+- ⚡ **Backend in Node.js & Socket.io**  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 📦 Tech Stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Frontend:** React, React Router, React Hot Toast, CodeMirror  
+- **Backend:** Node.js, Express, Socket.io  
+- **Other:** cors, nodemon (for development)  
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔧 Requirements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Make sure the following are installed on your system:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Node.js](https://nodejs.org/) ≥ 18.x  
+- npm ≥ 9.x  
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## ⚡ Setup Instructions
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. **Clone the repository:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+git clone https://github.com/NandiniGoyal16/Realtime-Editor.git
+cd realtime-editor
+```
+2. **Install Dependencies:**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm install
+```
 
-## Learn More
+3. **Create a .env file in the root:**
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+REACT_APP_BACKEND_URL=http://localhost:5001
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+4. **Run the development server (Frontend only):**
+```
+npm start
+```
 
-### Code Splitting
+5. **Run the development server (Backend only):**
+```
+npm server:dev
+```
+6. **Open in browser:**
+```
+http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Will deploy the project in future :)
 
-### Analyzing the Bundle Size
+## 📦 Dependencies
+- react
+- react-dom
+- react-router-dom
+- react-hot-toast
+- codemirror
+- express
+- socket.io
+- socket.io-client
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📜 License
+MIT License © 2025
 
-### Making a Progressive Web App
+## 🎉 Credits
+Built by Nandini Goyal
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 📬 Contact
 
-### Advanced Configuration
+If you have any questions or suggestions, feel free to reach out!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+- Email: nandini04.goyal@gmail.com
+- LinkedIn: https://www.linkedin.com/in/nandini-goyal-6b9116259/
+- GitHub: https://github.com/NandiniGoyal16
+I would love to hear from you! 😊
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
