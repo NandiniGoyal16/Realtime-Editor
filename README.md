@@ -1,4 +1,4 @@
-# 💻 Realtime Code Editor
+# 💻 Coding Room A Realtime Collaboration
 
 A **realtime collaborative code editor** built with **React**, **Node.js**, and **Socket.io**. Users can join rooms, edit code together, and see each other's changes live.  
 
@@ -68,8 +68,11 @@ npm server:dev
 ```
 http://localhost:3000
 ```
+---
 
 ## Will deploy the project in future :)
+
+---
 
 ## 📦 Dependencies
 - react
@@ -81,11 +84,17 @@ http://localhost:3000
 - socket.io
 - socket.io-client
 
+---
+
 ## 📜 License
 MIT License © 2025
 
+---
+
 ## 🎉 Credits
 Built by Nandini Goyal
+
+---
 
 ## 📬 Contact
 
@@ -96,4 +105,5 @@ If you have any questions or suggestions, feel free to reach out!
 - GitHub: https://github.com/NandiniGoyal16
 I would love to hear from you! 😊
 
+---
 
